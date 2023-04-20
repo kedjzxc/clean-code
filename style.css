@@ -5,31 +5,31 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.matrix img {
   width: 100%;
 }
 
-.aaa,
-.more_inf {
+.matrix,
+.matrix__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa {
+  .matrix {
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -41,7 +41,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task-row__wrapper {
   display: flex;
 }
 
@@ -153,7 +153,7 @@ li>input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks label {
+#main__completed label {
   text-decoration: line-through; 
   color: #888;
 }
@@ -163,11 +163,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul .editMode input[type=text] {
+ul .main__edit input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul .editMode label {
+ul .main__edit label {
   display: none;
 }
